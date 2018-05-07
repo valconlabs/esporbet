@@ -1,0 +1,16 @@
+// Global
+@import './global/reset';
+@import './global/variables';
+@import './global/mixins';
+@import './global/fonts';
+@import './global/global';
+
+// Constant
+@import './global/constant/header';
+@import './global/constant/navigation';
+@import './global/constant/footer';
+
+//Page
+@import './global/page/landing';
+@import './global/page/home';
+

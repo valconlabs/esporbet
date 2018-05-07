@@ -1,0 +1,21 @@
+body#landing {
+    height: 100vh;
+    background-image: url('../img/Background.png');
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bettingStarted {
+    background-color: $mainBackgroundColor;
+    margin-top: 70px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 75vh;
+    position: relative;
+}
+
+.head__mainbar {
+    width: 100%;
+}

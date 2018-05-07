@@ -1,0 +1,152 @@
+.header {
+    &__appbar {
+        align-items: center;
+        display: inline-flex;
+        justify-content: space-between;
+        margin-top: 30px;
+            &--left {
+                float: left;
+                display: flex;
+                    &__menu {
+                        &__list {
+                            list-style: none;
+                                &__item {
+                                    float: left;
+                                    padding-right: 30px;
+                                        a {
+                                            color: rgba($color: #fff, $alpha: 0.5);
+                                            transition: 500ms;
+                                            &:hover {
+                                                text-decoration: none;
+                                                color: #fff;
+                                            }
+                                        }
+                                        &:last-child {
+                                            padding-right: 0px;
+                                        }
+                                }
+                        }
+                    }
+            }
+            &--right {
+                float: right;
+                display: inline-flex;
+                align-items: center;
+                    &__user {
+                        &__button {
+                            background: #fff;
+                            padding: 10px 50px;
+                            border-radius: 50px;
+                            color: #333;
+                            font-weight: 500;
+                            display: block;
+                            font-size: 16px;
+                                &__text {
+                                    font-weight: 300;
+                                    display: block;
+                                }
+                        }
+                    }
+            }
+    }
+}
+
+.content {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20vh;
+        &__selection {
+            &--heading {
+                &__description {
+                    color: #fff;
+                    font-weight: 300;
+                    font-size: 18px;
+                    letter-spacing: 2px;
+                }
+                &__title {
+                    color: #fff;
+                    font-size: 52px;
+                }
+            }
+            &--box__list {
+                list-style-type: none;
+                margin-top: 70px;
+                padding-left: 0px;
+                display: block;
+                position: relative;
+                    &__item {
+                        float: left;
+                        padding-right: 20px;
+                            &:last-child {
+                                padding-right: 0px;
+                            }
+                                a {
+                                    background: #FFF;  /* fallback for old browsers */
+                                    padding: 50px 40px;
+                                    border-radius: 4px;
+                                    color: #333;
+                                    font-weight: 300;
+                                    transition: 500ms;
+                                        &:hover {
+                                            text-decoration: none;
+                                            background: transparent;
+                                            color: #fff;
+                                            box-shadow: 0 0 0 2px #fff inset;
+                                        }
+
+                                }
+                    }
+            }
+            &--box__button {
+                margin-top: 80px;
+                display: inline-block;
+                border: 2px solid #fff;
+                border-radius: 4px;
+                font-size: 13px;
+                font-weight: 300;
+                letter-spacing: 2px;
+                color: #fff;
+                padding: 10px 20px;
+                transition: 500ms;
+                    &:hover {
+                        text-decoration: none;
+                        background: #fff;
+                        color: #333;
+                        font-weight: 500;
+                    }
+            }
+        }
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+    justify-content: space-between;
+    width: 100%;
+        &__appbar {
+                &--left {
+                    float: left;
+                        &__term {
+                            color: #fff;
+                            font-weight: 300;
+                            letter-spacing: 1px;
+                        }
+                }
+                &--right {
+                    float: right;
+                        &__social__list {
+                            list-style-type: none;
+                                &__item {
+                                    float: left;
+                                    padding-right: 20px;
+                                        &:last-child {
+                                            padding-right: 0px;
+                                        }
+                                }
+                        }
+                }
+        }
+}

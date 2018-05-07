@@ -1,0 +1,49 @@
+.head__mainbar--main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: $headMenuMainColor;
+        &__left {
+            float: left;
+            &--menulist {
+                list-style: none;
+                &__item {
+                    float: left;
+                }
+            }
+        }
+        &__right {
+            float: right;
+                &--signlist {
+                    list-style: none;
+                        &__item {
+                            float: left;
+                        }
+                }
+        }
+}
+
+.head__mainbar--sub {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: $headMenuSubColor;
+        &__left {
+            float: left;
+                &--menulist {
+                    list-style: none;
+                        &__item {
+                            float: left;
+                        }
+                }
+        }
+        &__right {
+            float: right;
+                &--sociallist {
+                    list-style: none;
+                        &__item {
+                            float: left;
+                        }
+                }
+        }
+}
